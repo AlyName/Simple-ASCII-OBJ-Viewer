@@ -2,7 +2,9 @@
 
 简单的 ASCII 3D Viewer，无需 OpenGL 等依赖库。
 
-## 构建
+目前仅支持 `.obj` 格式的 Mesh。允许带 `.mtl` 的材质描述文件。
+
+## Build
 
 ```bash
 mkdir build
@@ -11,12 +13,12 @@ cmake .. -G "Ninja" -DCMAKE_BUILD_TYPE=Release
 cmake --build .
 ```
 
-## 运行
+## Run
 
 ```bash
 # 指定 OBJ 文件
-.\viewer.exe cube.obj
+./viewer.exe ../examples/rose.obj
 
 # 或运行后输入路径
-.\viewer.exe
+./viewer.exe
 ```

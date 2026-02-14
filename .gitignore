@@ -7,3 +7,5 @@ build/
 *.mtl
 *.jpg
 *.png
+# But not ignore example/*
+!example/*
