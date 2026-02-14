@@ -1,0 +1,7 @@
+# Ignore all files in the build directory
+build/
+# Ignore .obj, .mtl, .jpg, .png files
+*.obj
+*.mtl
+*.jpg
+*.png
